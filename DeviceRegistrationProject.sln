@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33205.214
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DeviceRegistration", "DeviceRegistration\DeviceRegistration.csproj", "{5082FE81-5586-4C15-B84C-F2854CA086FB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{92FBE0E5-61E9-48D0-AAE7-0A5EAB08F293}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+		LICENSE.txt = LICENSE.txt
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DeviceRegistrationTest", "DeviceRegistrationTest\DeviceRegistrationTest.csproj", "{C3395579-71E4-418E-A79B-35B7AAA52B8C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5082FE81-5586-4C15-B84C-F2854CA086FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5082FE81-5586-4C15-B84C-F2854CA086FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5082FE81-5586-4C15-B84C-F2854CA086FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5082FE81-5586-4C15-B84C-F2854CA086FB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C3395579-71E4-418E-A79B-35B7AAA52B8C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C3395579-71E4-418E-A79B-35B7AAA52B8C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C3395579-71E4-418E-A79B-35B7AAA52B8C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C3395579-71E4-418E-A79B-35B7AAA52B8C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A378EA9C-2B62-4B2F-83E3-D1411103F4D9}
+	EndGlobalSection
+EndGlobal
